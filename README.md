@@ -1,6 +1,6 @@
 # Info
 
-A small kubectl wrapper which searches for secret token names and copies the token to the clipboard. If more than 1 result exists an error is shown asking to refine the query, 
+A small kubectl command line wrapper which searches for secret token names and copies the token to the clipboard. If more than 1 result exists an error is shown asking to refine the query, 
 as the purpose of this tool is to copy the token to your clipboard.
 
 # Usage
