@@ -23,7 +23,7 @@ k8s-token
 	-h - Help
 ```
 
-The result will be 
+The result will be the below and the token is copied to your clipboard! 
 
 ```
 query:
