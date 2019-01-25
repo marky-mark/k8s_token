@@ -3,10 +3,20 @@
 A small kubectl command line wrapper which searches for secret token names and copies the token to the clipboard. If more than 1 result exists an error is shown asking to refine the query, 
 as the purpose of this tool is to copy the token to your clipboard.
 
+# Install via Homewbrew
+
+```
+brew tap teckro/k8stoken
+brew update
+brew install k8stoken
+```
+
+Now you can use `k8s-token` on your console
+
 # Usage
 
 ```
-./k8s-token.sh
+k8s-token
 	-d - The Default Dashboard query. The following parameters are set -n 'kube-system' -q 'kubernetes-dashboard-token'
 	-n - The kubernetes namespace
 	-q - The kubernetes secret name to query
