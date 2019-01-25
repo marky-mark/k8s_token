@@ -6,7 +6,7 @@ as the purpose of this tool is to copy the token to your clipboard.
 # Usage
 
 ```
-./generate_token.sh
+./k8s-token.sh
 	-d - The Default Dashboard query. The following parameters are set -n 'kube-system' -q 'kubernetes-dashboard-token'
 	-n - The kubernetes namespace
 	-q - The kubernetes secret name to query
