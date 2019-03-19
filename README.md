@@ -6,7 +6,7 @@ as the purpose of this tool is to copy the token to your clipboard.
 # Install via Homewbrew
 
 ```
-brew tap teckro/k8stoken
+brew tap teckro/k8s-token
 brew update
 brew install k8stoken
 ```
